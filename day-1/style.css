@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-weight: 400;
+    font-size: 14px;
+    background-color: aliceblue;
+    color: #242f51;
+}
+.wrapper{
+    max-width: 970px;
+    margin: 0 auto;
+}
+
+.menu_logo {
+    display: inline-block;
+  }
+  .menu {
+    display: inline-block;
+    float: right;
+  }
+  .menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: left;
+  }
+  .menu ul li {
+    display: inline-block;
+  }
+  .menu ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: right;
+  }
+  .menu .btn {
+    float: right;
+    margin-left: 20px;
+  }
+  .menu_area {
+    padding: 20px 0;
+  }
+  .btn {
+    padding: 10px 15px;
+    border: 0;
+    text-decoration: none;
+    background-color: #2500f9;
+    color: #fff;
+    cursor: pointer;
+  }
+  .btn.brdrd-btn a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+  }
+  .btn.brdrd-btn {
+    border-radius: 20px;
+    padding: 10px 30px;
+  }
+  .no-border{
+    background-color: transparent;
+  }
+  .btn.brdrd-btn.no-border a {
+	color: #2500f9;
+}
+  .menu_logo a img {
+	height: 30px;
+	width: 120px;
+}
+.hero_area{
+    padding: 80px 0;
+}
+.hero-text {
+    width: 60%;
+    float: left;
+    margin-top: 10%;
+  }
+  .hero-phone {
+    width: 40%;
+    float: left;
+  }
+.hero-text h1 {
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 20px;
+  }
+  .hero-text p {
+    line-height: 24px;
+    max-width: 75%;
+    margin-bottom: 20px;
+  }
+  
+.hero-phone img {
+    max-width: 100%;
+    height: 550px;
+  }
